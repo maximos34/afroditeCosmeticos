@@ -14,4 +14,13 @@
       items-center
       gap-11 ;
    }
+   .createAccountLink{
+      @apply
+      px-4 bg-darkBrown-900  text-center text-base rounded-xl py-4 mb-4
+   }
+   .createAccountLinkText{
+      @apply font-sans text-Bege-500
+   }
+
+
 }
