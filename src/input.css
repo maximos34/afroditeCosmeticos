@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+   .mainMobile {
+      @apply 
+      w-full 
+      h-full 
+      mx-auto 
+      flex 
+      flex-col 
+      justify-center 
+      items-center
+      gap-11 ;
+   }
+}
